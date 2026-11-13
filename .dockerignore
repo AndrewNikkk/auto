@@ -1,0 +1,10 @@
+.git
+.venv
+.env
+**/.npmrc
+**/__pycache__
+.pytest_cache
+outputs
+cache
+data
+.ruff_cache

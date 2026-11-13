@@ -1,0 +1,316 @@
+{
+  "flux_schnell": {
+    "repo": "black-forest-labs/FLUX.1-schnell",
+    "revision": "741f7c3ce8b383c54771c7003378a50191e9efe9",
+    "license": "apache-2.0",
+    "total_bytes": 57845410538,
+    "files": [
+      {
+        "path": "flux1-schnell.safetensors",
+        "size": 23782506688,
+        "sha256": "9403429e0052277ac2a87ad800adece5481eecefd9ed334e1f348723621d2a0a"
+      }
+    ],
+    "verification": "HfApi.model_info"
+  },
+  "vae": {
+    "repo": "black-forest-labs/FLUX.1-schnell",
+    "revision": "741f7c3ce8b383c54771c7003378a50191e9efe9",
+    "license": "apache-2.0",
+    "total_bytes": 57845410538,
+    "files": [
+      {
+        "path": "ae.safetensors",
+        "size": 335304388,
+        "sha256": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38"
+      }
+    ],
+    "verification": "HfApi.model_info"
+  },
+  "clip_t5": {
+    "repo": "comfyanonymous/flux_text_encoders",
+    "revision": "6af2a98e3f615bdfa612fbd85da93d1ed5f69ef5",
+    "license": "apache-2.0",
+    "total_bytes": 20085270536,
+    "files": [
+      {
+        "path": "clip_l.safetensors",
+        "size": 246144152,
+        "sha256": "660c6f5b1abae9dc498ac2d21e1347d2abdb0cf6c0c0c8576cd796491d9a6cdd"
+      },
+      {
+        "path": "t5xxl_fp8_e4m3fn.safetensors",
+        "size": 4893934904,
+        "sha256": "7d330da4816157540d6bb7838bf63a0f02f573fc48ca4d8de34bb0cbfd514f09"
+      }
+    ],
+    "verification": "HfApi.model_info"
+  },
+  "qwen3_tts": {
+    "repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "revision": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
+    "license": "apache-2.0",
+    "total_bytes": 4520218951,
+    "files": [
+      {
+        "path": ".gitattributes",
+        "size": 1519,
+        "sha256": null
+      },
+      {
+        "path": "README.md",
+        "size": 57846,
+        "sha256": null
+      },
+      {
+        "path": "config.json",
+        "size": 4908,
+        "sha256": null
+      },
+      {
+        "path": "generation_config.json",
+        "size": 245,
+        "sha256": null
+      },
+      {
+        "path": "merges.txt",
+        "size": 1671839,
+        "sha256": null
+      },
+      {
+        "path": "model.safetensors",
+        "size": 3833402552,
+        "sha256": "38b1d5971bdbd982b561cccec982669a53b0537c3cf5e9bd4778ed07bb2f5137"
+      },
+      {
+        "path": "preprocessor_config.json",
+        "size": 127,
+        "sha256": null
+      },
+      {
+        "path": "speech_tokenizer/config.json",
+        "size": 2336,
+        "sha256": null
+      },
+      {
+        "path": "speech_tokenizer/configuration.json",
+        "size": 76,
+        "sha256": null
+      },
+      {
+        "path": "speech_tokenizer/model.safetensors",
+        "size": 682293092,
+        "sha256": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258"
+      },
+      {
+        "path": "speech_tokenizer/preprocessor_config.json",
+        "size": 234,
+        "sha256": null
+      },
+      {
+        "path": "tokenizer_config.json",
+        "size": 7344,
+        "sha256": null
+      },
+      {
+        "path": "vocab.json",
+        "size": 2776833,
+        "sha256": null
+      }
+    ],
+    "verification": "HfApi.model_info"
+  },
+  "whisperx_align_ru": {
+    "repo": "jonatasgrosman/wav2vec2-large-xlsr-53-russian",
+    "revision": "2329100508896c6d9b157019803ab5601e6f3406",
+    "license": "apache-2.0",
+    "total_bytes": 4047623728,
+    "files": [
+      {
+        "path": ".gitattributes",
+        "size": 736,
+        "sha256": null
+      },
+      {
+        "path": "README.md",
+        "size": 6912,
+        "sha256": null
+      },
+      {
+        "path": "alphabet.json",
+        "size": 263,
+        "sha256": null
+      },
+      {
+        "path": "config.json",
+        "size": 1782,
+        "sha256": null
+      },
+      {
+        "path": "eval.py",
+        "size": 6198,
+        "sha256": null
+      },
+      {
+        "path": "flax_model.msgpack",
+        "size": 1261930172,
+        "sha256": "967b19d6400670d9437a0489a13bedbc3da0c710a7671349ac679cad9853639f"
+      },
+      {
+        "path": "full_eval.sh",
+        "size": 1372,
+        "sha256": null
+      },
+      {
+        "path": "language_model/attrs.json",
+        "size": 78,
+        "sha256": null
+      },
+      {
+        "path": "language_model/lm.binary",
+        "size": 1486935543,
+        "sha256": "01a8fba99ad0d5157e060ea7bee83adb7bc7025606e6f98a783da1413b6edbaf"
+      },
+      {
+        "path": "language_model/unigrams.txt",
+        "size": 32849086,
+        "sha256": "e7c72ae916afa54951fe3bd6094c95e2895c1c7881a20e02ef640aa27cdb4874"
+      },
+      {
+        "path": "log_mozilla-foundation_common_voice_6_0_ru_test_predictions.txt",
+        "size": 1054272,
+        "sha256": null
+      },
+      {
+        "path": "log_mozilla-foundation_common_voice_6_0_ru_test_predictions_greedy.txt",
+        "size": 1054819,
+        "sha256": null
+      },
+      {
+        "path": "log_mozilla-foundation_common_voice_6_0_ru_test_targets.txt",
+        "size": 1057641,
+        "sha256": null
+      },
+      {
+        "path": "log_speech-recognition-community-v2_dev_data_ru_validation_predictions.txt",
+        "size": 211890,
+        "sha256": null
+      },
+      {
+        "path": "log_speech-recognition-community-v2_dev_data_ru_validation_predictions_greedy.txt",
+        "size": 212316,
+        "sha256": null
+      },
+      {
+        "path": "log_speech-recognition-community-v2_dev_data_ru_validation_targets.txt",
+        "size": 206000,
+        "sha256": null
+      },
+      {
+        "path": "mozilla-foundation_common_voice_6_0_ru_test_eval_results.txt",
+        "size": 50,
+        "sha256": null
+      },
+      {
+        "path": "mozilla-foundation_common_voice_6_0_ru_test_eval_results_greedy.txt",
+        "size": 49,
+        "sha256": null
+      },
+      {
+        "path": "preprocessor_config.json",
+        "size": 262,
+        "sha256": null
+      },
+      {
+        "path": "pytorch_model.bin",
+        "size": 1262093719,
+        "sha256": "d1cdb1a7921de7d363f967a9b0101a713602e109dba62b6f3f9ae2e0b2df0c1c"
+      },
+      {
+        "path": "special_tokens_map.json",
+        "size": 85,
+        "sha256": null
+      },
+      {
+        "path": "speech-recognition-community-v2_dev_data_ru_validation_eval_results.txt",
+        "size": 48,
+        "sha256": null
+      },
+      {
+        "path": "speech-recognition-community-v2_dev_data_ru_validation_eval_results_greedy.txt",
+        "size": 48,
+        "sha256": null
+      },
+      {
+        "path": "vocab.json",
+        "size": 387,
+        "sha256": null
+      }
+    ],
+    "verification": "HfApi.model_info"
+  },
+  "whisperx_align_en": {
+    "repo": "facebook/wav2vec2-large-960h-lv60-self",
+    "revision": "54074b1c16f4de6a5ad59affb4caa8f2ea03a119",
+    "license": "apache-2.0",
+    "total_bytes": 3786361344,
+    "files": [
+      {
+        "path": ".gitattributes",
+        "size": 736,
+        "sha256": null
+      },
+      {
+        "path": "README.md",
+        "size": 4471,
+        "sha256": null
+      },
+      {
+        "path": "config.json",
+        "size": 1606,
+        "sha256": null
+      },
+      {
+        "path": "feature_extractor_config.json",
+        "size": 157,
+        "sha256": null
+      },
+      {
+        "path": "flax_model.msgpack",
+        "size": 1261901472,
+        "sha256": "90568e6185400541adead27c34d550df8fde3d35515c314fae28eaabbfe166a1"
+      },
+      {
+        "path": "preprocessor_config.json",
+        "size": 158,
+        "sha256": null
+      },
+      {
+        "path": "pytorch_model.bin",
+        "size": 1262055246,
+        "sha256": "00b604cf4d28e86559e8adaeb3a186daa89dc37f5ab216771a0a15a26db0de9f"
+      },
+      {
+        "path": "special_tokens_map.json",
+        "size": 85,
+        "sha256": null
+      },
+      {
+        "path": "tf_model.h5",
+        "size": 1262396960,
+        "sha256": "924217bb609535355134d3da00d37c747177c1366f8a5f296bb4822942cb6add"
+      },
+      {
+        "path": "tokenizer_config.json",
+        "size": 162,
+        "sha256": null
+      },
+      {
+        "path": "vocab.json",
+        "size": 291,
+        "sha256": null
+      }
+    ],
+    "verification": "HfApi.model_info"
+  }
+}

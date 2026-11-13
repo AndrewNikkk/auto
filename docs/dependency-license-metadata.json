@@ -1,0 +1,858 @@
+[
+  {
+    "component": "accelerate",
+    "version": "1.12.0",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/accelerate/1.12.0/"
+  },
+  {
+    "component": "aiofiles",
+    "version": "24.1.0",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/aiofiles/24.1.0/"
+  },
+  {
+    "component": "aiohappyeyeballs",
+    "version": "2.7.1",
+    "license": [
+      "Python Software Foundation License"
+    ],
+    "source_url": "https://pypi.org/project/aiohappyeyeballs/2.7.1/"
+  },
+  {
+    "component": "aiohttp",
+    "version": "3.14.5",
+    "license": "Apache-2.0 AND MIT",
+    "source_url": "https://pypi.org/project/aiohttp/3.14.5/"
+  },
+  {
+    "component": "aiosignal",
+    "version": "1.4.0",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/aiosignal/1.4.0/"
+  },
+  {
+    "component": "annotated-doc",
+    "version": "0.0.6",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/annotated-doc/0.0.6/"
+  },
+  {
+    "component": "annotated-types",
+    "version": "0.8.0",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/annotated-types/0.8.0/"
+  },
+  {
+    "component": "anyio",
+    "version": "4.16.0",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/anyio/4.16.0/"
+  },
+  {
+    "component": "attrs",
+    "version": "26.1.0",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/attrs/26.1.0/"
+  },
+  {
+    "component": "audioread",
+    "version": "3.1.0",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/audioread/3.1.0/"
+  },
+  {
+    "component": "av",
+    "version": "15.1.0",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/av/15.1.0/"
+  },
+  {
+    "component": "brotli",
+    "version": "1.2.1",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/brotli/1.2.1/"
+  },
+  {
+    "component": "certifi",
+    "version": "2026.10.23",
+    "license": [
+      "Mozilla Public License 2.0 (MPL 2.0)"
+    ],
+    "source_url": "https://pypi.org/project/certifi/2026.10.23/"
+  },
+  {
+    "component": "cffi",
+    "version": "2.1.1",
+    "license": "MIT-0",
+    "source_url": "https://pypi.org/project/cffi/2.1.1/"
+  },
+  {
+    "component": "charset-normalizer",
+    "version": "3.5.2",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/charset-normalizer/3.5.2/"
+  },
+  {
+    "component": "click",
+    "version": "8.5.1",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/click/8.5.1/"
+  },
+  {
+    "component": "cloudpickle",
+    "version": "3.1.2",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/cloudpickle/3.1.2/"
+  },
+  {
+    "component": "comfyui-frontend-package",
+    "version": "1.14.6",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/comfyui-frontend-package/1.14.6/"
+  },
+  {
+    "component": "decorator",
+    "version": "5.3.1",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/decorator/5.3.1/"
+  },
+  {
+    "component": "einops",
+    "version": "0.8.2",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/einops/0.8.2/"
+  },
+  {
+    "component": "fastapi",
+    "version": "0.162.5",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/fastapi/0.162.5/"
+  },
+  {
+    "component": "ffmpy",
+    "version": "1.0.0",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/ffmpy/1.0.0/"
+  },
+  {
+    "component": "filelock",
+    "version": "4.2.10",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/filelock/4.2.10/"
+  },
+  {
+    "component": "flatbuffers",
+    "version": "25.12.19",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/flatbuffers/25.12.19/"
+  },
+  {
+    "component": "frozenlist",
+    "version": "1.8.0",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/frozenlist/1.8.0/"
+  },
+  {
+    "component": "fsspec",
+    "version": "2026.9.0",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/fsspec/2026.9.0/"
+  },
+  {
+    "component": "gradio",
+    "version": "5.49.1",
+    "license": "Apache-2.0",
+    "source_url": "https://pypi.org/project/gradio/5.49.1/"
+  },
+  {
+    "component": "gradio-client",
+    "version": "1.13.3",
+    "license": "Apache-2.0",
+    "source_url": "https://pypi.org/project/gradio-client/1.13.3/"
+  },
+  {
+    "component": "groovy",
+    "version": "0.1.2",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/groovy/0.1.2/"
+  },
+  {
+    "component": "h11",
+    "version": "0.16.0",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/h11/0.16.0/"
+  },
+  {
+    "component": "hf-xet",
+    "version": "1.8.0",
+    "license": "Apache-2.0",
+    "source_url": "https://pypi.org/project/hf-xet/1.8.0/"
+  },
+  {
+    "component": "httpcore",
+    "version": "1.0.9",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/httpcore/1.0.9/"
+  },
+  {
+    "component": "httpx",
+    "version": "0.28.1",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/httpx/0.28.1/"
+  },
+  {
+    "component": "huggingface-hub",
+    "version": "0.36.0",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/huggingface-hub/0.36.0/"
+  },
+  {
+    "component": "idna",
+    "version": "3.20",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/idna/3.20/"
+  },
+  {
+    "component": "jinja2",
+    "version": "3.1.6",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/jinja2/3.1.6/"
+  },
+  {
+    "component": "joblib",
+    "version": "1.6.0",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/joblib/1.6.0/"
+  },
+  {
+    "component": "kornia",
+    "version": "0.9.0",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/kornia/0.9.0/"
+  },
+  {
+    "component": "kornia-rs",
+    "version": "0.2.0",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/kornia-rs/0.2.0/"
+  },
+  {
+    "component": "lazy-loader",
+    "version": "0.6",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/lazy-loader/0.6/"
+  },
+  {
+    "component": "librosa",
+    "version": "0.11.0",
+    "license": [
+      "ISC License (ISCL)"
+    ],
+    "source_url": "https://pypi.org/project/librosa/0.11.0/"
+  },
+  {
+    "component": "llvmlite",
+    "version": "0.50.0",
+    "license": "BSD-2-Clause AND Apache-2.0 WITH LLVM-exception",
+    "source_url": "https://pypi.org/project/llvmlite/0.50.0/"
+  },
+  {
+    "component": "markdown-it-py",
+    "version": "4.3.0",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/markdown-it-py/4.3.0/"
+  },
+  {
+    "component": "markupsafe",
+    "version": "3.0.4",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/markupsafe/3.0.4/"
+  },
+  {
+    "component": "mdurl",
+    "version": "0.1.2",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/mdurl/0.1.2/"
+  },
+  {
+    "component": "mpmath",
+    "version": "1.3.0",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/mpmath/1.3.0/"
+  },
+  {
+    "component": "msgpack",
+    "version": "1.2.4",
+    "license": "Apache-2.0",
+    "source_url": "https://pypi.org/project/msgpack/1.2.4/"
+  },
+  {
+    "component": "multidict",
+    "version": "7.2.1",
+    "license": "Apache-2.0",
+    "source_url": "https://pypi.org/project/multidict/7.2.1/"
+  },
+  {
+    "component": "narwhals",
+    "version": "2.28.0",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/narwhals/2.28.0/"
+  },
+  {
+    "component": "networkx",
+    "version": "3.6.1",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/networkx/3.6.1/"
+  },
+  {
+    "component": "nltk",
+    "version": "3.9.2",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/nltk/3.9.2/"
+  },
+  {
+    "component": "numba",
+    "version": "0.68.1",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/numba/0.68.1/"
+  },
+  {
+    "component": "numpy",
+    "version": "2.0.2",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/numpy/2.0.2/"
+  },
+  {
+    "component": "nvidia-cublas-cu12",
+    "version": "12.8.4.1",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-cublas-cu12/12.8.4.1/"
+  },
+  {
+    "component": "nvidia-cuda-cupti-cu12",
+    "version": "12.8.90",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-cuda-cupti-cu12/12.8.90/"
+  },
+  {
+    "component": "nvidia-cuda-nvrtc-cu12",
+    "version": "12.8.93",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-cuda-nvrtc-cu12/12.8.93/"
+  },
+  {
+    "component": "nvidia-cuda-runtime-cu12",
+    "version": "12.8.90",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-cuda-runtime-cu12/12.8.90/"
+  },
+  {
+    "component": "nvidia-cudnn-cu12",
+    "version": "9.10.2.21",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-cudnn-cu12/9.10.2.21/"
+  },
+  {
+    "component": "nvidia-cufft-cu12",
+    "version": "11.3.3.83",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-cufft-cu12/11.3.3.83/"
+  },
+  {
+    "component": "nvidia-cufile-cu12",
+    "version": "1.13.1.3",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-cufile-cu12/1.13.1.3/"
+  },
+  {
+    "component": "nvidia-curand-cu12",
+    "version": "10.3.9.90",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-curand-cu12/10.3.9.90/"
+  },
+  {
+    "component": "nvidia-cusolver-cu12",
+    "version": "11.7.3.90",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-cusolver-cu12/11.7.3.90/"
+  },
+  {
+    "component": "nvidia-cusparse-cu12",
+    "version": "12.5.8.93",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-cusparse-cu12/12.5.8.93/"
+  },
+  {
+    "component": "nvidia-cusparselt-cu12",
+    "version": "0.7.1",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-cusparselt-cu12/0.7.1/"
+  },
+  {
+    "component": "nvidia-ml-py",
+    "version": "13.580.82",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/nvidia-ml-py/13.580.82/"
+  },
+  {
+    "component": "nvidia-nccl-cu12",
+    "version": "2.27.3",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-nccl-cu12/2.27.3/"
+  },
+  {
+    "component": "nvidia-nvjitlink-cu12",
+    "version": "12.8.93",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-nvjitlink-cu12/12.8.93/"
+  },
+  {
+    "component": "nvidia-nvtx-cu12",
+    "version": "12.8.90",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/nvidia-nvtx-cu12/12.8.90/"
+  },
+  {
+    "component": "onnxruntime",
+    "version": "1.31.1",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/onnxruntime/1.31.1/"
+  },
+  {
+    "component": "opentelemetry-api",
+    "version": "1.45.2",
+    "license": "Apache-2.0",
+    "source_url": "https://pypi.org/project/opentelemetry-api/1.45.2/"
+  },
+  {
+    "component": "orjson",
+    "version": "3.13.0",
+    "license": "MPL-2.0 AND (Apache-2.0 OR MIT)",
+    "source_url": "https://pypi.org/project/orjson/3.13.0/"
+  },
+  {
+    "component": "packaging",
+    "version": "26.3",
+    "license": "Apache-2.0 OR BSD-2-Clause",
+    "source_url": "https://pypi.org/project/packaging/26.3/"
+  },
+  {
+    "component": "pandas",
+    "version": "2.2.3",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/pandas/2.2.3/"
+  },
+  {
+    "component": "pillow",
+    "version": "11.3.0",
+    "license": "MIT-CMU",
+    "source_url": "https://pypi.org/project/pillow/11.3.0/"
+  },
+  {
+    "component": "platformdirs",
+    "version": "4.14.5",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/platformdirs/4.14.5/"
+  },
+  {
+    "component": "pooch",
+    "version": "1.9.0",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/pooch/1.9.0/"
+  },
+  {
+    "component": "propcache",
+    "version": "0.5.4",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/propcache/0.5.4/"
+  },
+  {
+    "component": "protobuf",
+    "version": "7.36.2",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/protobuf/7.36.2/"
+  },
+  {
+    "component": "psutil",
+    "version": "7.1.3",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/psutil/7.1.3/"
+  },
+  {
+    "component": "pycparser",
+    "version": "3.12",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/pycparser/3.12/"
+  },
+  {
+    "component": "pydantic",
+    "version": "2.11.10",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/pydantic/2.11.10/"
+  },
+  {
+    "component": "pydantic-core",
+    "version": "2.33.2",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/pydantic-core/2.33.2/"
+  },
+  {
+    "component": "pydub",
+    "version": "0.25.1",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/pydub/0.25.1/"
+  },
+  {
+    "component": "pygments",
+    "version": "2.21.0",
+    "license": "BSD-2-Clause",
+    "source_url": "https://pypi.org/project/pygments/2.21.0/"
+  },
+  {
+    "component": "python-dateutil",
+    "version": "4.0.0",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/python-dateutil/4.0.0/"
+  },
+  {
+    "component": "python-multipart",
+    "version": "0.0.33",
+    "license": "Apache-2.0",
+    "source_url": "https://pypi.org/project/python-multipart/0.0.33/"
+  },
+  {
+    "component": "pytz",
+    "version": "2026.6",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/pytz/2026.6/"
+  },
+  {
+    "component": "pyyaml",
+    "version": "6.0.3",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/pyyaml/6.0.3/"
+  },
+  {
+    "component": "qwen-tts",
+    "version": "0.1.1",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/qwen-tts/0.1.1/"
+  },
+  {
+    "component": "regex",
+    "version": "2026.11.9",
+    "license": "Apache-2.0 AND CNRI-Python",
+    "source_url": "https://pypi.org/project/regex/2026.11.9/"
+  },
+  {
+    "component": "requests",
+    "version": "2.34.2",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/requests/2.34.2/"
+  },
+  {
+    "component": "rich",
+    "version": "15.0.0",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/rich/15.0.0/"
+  },
+  {
+    "component": "ruff",
+    "version": "0.17.5",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/ruff/0.17.5/"
+  },
+  {
+    "component": "safehttpx",
+    "version": "0.1.7",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/safehttpx/0.1.7/"
+  },
+  {
+    "component": "safetensors",
+    "version": "0.8.0",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/safetensors/0.8.0/"
+  },
+  {
+    "component": "scikit-learn",
+    "version": "1.9.1",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/scikit-learn/1.9.1/"
+  },
+  {
+    "component": "scipy",
+    "version": "1.17.1",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/scipy/1.17.1/"
+  },
+  {
+    "component": "semantic-version",
+    "version": "2.10.0",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/semantic-version/2.10.0/"
+  },
+  {
+    "component": "sentencepiece",
+    "version": "0.2.3",
+    "license": "Apache-2.0",
+    "source_url": "https://pypi.org/project/sentencepiece/0.2.3/"
+  },
+  {
+    "component": "setuptools",
+    "version": "84.2.1",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/setuptools/84.2.1/"
+  },
+  {
+    "component": "shellingham",
+    "version": "1.5.4",
+    "license": [
+      "ISC License (ISCL)"
+    ],
+    "source_url": "https://pypi.org/project/shellingham/1.5.4/"
+  },
+  {
+    "component": "soundfile",
+    "version": "0.13.1",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/soundfile/0.13.1/"
+  },
+  {
+    "component": "sox",
+    "version": "1.5.0",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/sox/1.5.0/"
+  },
+  {
+    "component": "soxr",
+    "version": "1.1.0",
+    "license": "LGPL-2.1-or-later",
+    "source_url": "https://pypi.org/project/soxr/1.1.0/"
+  },
+  {
+    "component": "spandrel",
+    "version": "0.4.2",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/spandrel/0.4.2/"
+  },
+  {
+    "component": "starlette",
+    "version": "0.52.1",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/starlette/0.52.1/"
+  },
+  {
+    "component": "sympy",
+    "version": "1.14.0",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/sympy/1.14.0/"
+  },
+  {
+    "component": "threadpoolctl",
+    "version": "3.8.0",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/threadpoolctl/3.8.0/"
+  },
+  {
+    "component": "tokenizers",
+    "version": "0.22.2",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/tokenizers/0.22.2/"
+  },
+  {
+    "component": "tomlkit",
+    "version": "0.13.3",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/tomlkit/0.13.3/"
+  },
+  {
+    "component": "torch",
+    "version": "2.8.0",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/torch/2.8.0/"
+  },
+  {
+    "component": "torchaudio",
+    "version": "2.8.0",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/torchaudio/2.8.0/"
+  },
+  {
+    "component": "torchsde",
+    "version": "0.2.6",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/torchsde/0.2.6/"
+  },
+  {
+    "component": "torchvision",
+    "version": "0.23.0",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/torchvision/0.23.0/"
+  },
+  {
+    "component": "tqdm",
+    "version": "4.70.1",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/tqdm/4.70.1/"
+  },
+  {
+    "component": "trampoline",
+    "version": "0.1.2",
+    "license": [
+      "MIT License"
+    ],
+    "source_url": "https://pypi.org/project/trampoline/0.1.2/"
+  },
+  {
+    "component": "transformers",
+    "version": "4.57.3",
+    "license": [
+      "Apache Software License"
+    ],
+    "source_url": "https://pypi.org/project/transformers/4.57.3/"
+  },
+  {
+    "component": "triton",
+    "version": "3.4.0",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/triton/3.4.0/"
+  },
+  {
+    "component": "typer",
+    "version": "0.29.1",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/typer/0.29.1/"
+  },
+  {
+    "component": "typing-extensions",
+    "version": "4.16.0",
+    "license": "PSF-2.0",
+    "source_url": "https://pypi.org/project/typing-extensions/4.16.0/"
+  },
+  {
+    "component": "typing-inspection",
+    "version": "0.4.5",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/typing-inspection/0.4.5/"
+  },
+  {
+    "component": "tzdata",
+    "version": "2026.6",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/tzdata/2026.6/"
+  },
+  {
+    "component": "urllib3",
+    "version": "2.8.0",
+    "license": "MIT",
+    "source_url": "https://pypi.org/project/urllib3/2.8.0/"
+  },
+  {
+    "component": "uvicorn",
+    "version": "0.54.0",
+    "license": "BSD-3-Clause",
+    "source_url": "https://pypi.org/project/uvicorn/0.54.0/"
+  },
+  {
+    "component": "websockets",
+    "version": "15.0.1",
+    "license": [
+      "BSD License"
+    ],
+    "source_url": "https://pypi.org/project/websockets/15.0.1/"
+  },
+  {
+    "component": "yarl",
+    "version": "1.25.1",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/yarl/1.25.1/"
+  },
+  {
+    "component": "whisperx",
+    "version": "3.7.4",
+    "license": "unknown — requires manual check",
+    "source_url": "https://pypi.org/project/whisperx/3.7.4/"
+  }
+]

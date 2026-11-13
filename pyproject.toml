@@ -1,0 +1,8 @@
+[project]
+name = "ai-shorts-generator"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = ["integration: real FFmpeg CPU tests", "gpu: requires NVIDIA GPU and downloaded weights"]

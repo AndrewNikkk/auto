@@ -1,0 +1,152 @@
+verified_on: '2026-11-13'
+comfyui:
+  git_commit: 9aac21f894a122ddb8d825c57ad61c0db5e630db
+  tag: v0.3.26
+  workflow_gpu_verified: false
+ollama:
+  model: qwen3:8b-q4_K_M
+  digest: sha256:500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41
+  version: 0.13.5
+huggingface:
+  flux_schnell:
+    repo: black-forest-labs/FLUX.1-schnell
+    revision: 741f7c3ce8b383c54771c7003378a50191e9efe9
+    license: apache-2.0
+    files:
+    - path: flux1-schnell.safetensors
+      size: 23782506688
+      sha256: 9403429e0052277ac2a87ad800adece5481eecefd9ed334e1f348723621d2a0a
+      destination: diffusion_models/flux1-schnell.safetensors
+    verification: HfApi.model_info
+    requires_manual_verification: false
+    download_bytes: 23782506688
+  vae:
+    repo: black-forest-labs/FLUX.1-schnell
+    revision: 741f7c3ce8b383c54771c7003378a50191e9efe9
+    license: apache-2.0
+    files:
+    - path: ae.safetensors
+      size: 335304388
+      sha256: afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38
+      destination: vae/ae.safetensors
+    verification: HfApi.model_info
+    requires_manual_verification: false
+    download_bytes: 335304388
+  clip_t5:
+    repo: comfyanonymous/flux_text_encoders
+    revision: 6af2a98e3f615bdfa612fbd85da93d1ed5f69ef5
+    license: apache-2.0
+    files:
+    - path: clip_l.safetensors
+      size: 246144152
+      sha256: 660c6f5b1abae9dc498ac2d21e1347d2abdb0cf6c0c0c8576cd796491d9a6cdd
+      destination: text_encoders/clip_l.safetensors
+    - path: t5xxl_fp8_e4m3fn.safetensors
+      size: 4893934904
+      sha256: 7d330da4816157540d6bb7838bf63a0f02f573fc48ca4d8de34bb0cbfd514f09
+      destination: text_encoders/t5xxl_fp8_e4m3fn.safetensors
+    verification: HfApi.model_info
+    requires_manual_verification: false
+    download_bytes: 5140079056
+  qwen3_tts:
+    repo: Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+    revision: 0c0e3051f131929182e2c023b9537f8b1c68adfe
+    license: apache-2.0
+    files:
+    - path: .gitattributes
+      size: 1519
+      sha256: 11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361
+    - path: README.md
+      size: 57846
+      sha256: 64f65e809b51cc0c35f393fbbfcc2d735c0cb3fdbbc6f3fdc4a5e6ce55e9d088
+    - path: config.json
+      size: 4908
+      sha256: 17a07f527a1c25ea30b4e023a184482a23d3e279d697b1dc81b1bde498d29cf9
+    - path: generation_config.json
+      size: 245
+      sha256: f1b90b4513f3b34c62851049e2492d7b4c5940daf1276f89c82b8ef04127f3aa
+    - path: merges.txt
+      size: 1671839
+      sha256: 599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3
+    - path: model.safetensors
+      size: 3833402552
+      sha256: 38b1d5971bdbd982b561cccec982669a53b0537c3cf5e9bd4778ed07bb2f5137
+    - path: preprocessor_config.json
+      size: 127
+      sha256: efdde1022ea9d76928bf7a9cd53139138f5ba2e466e837f08f6105ab1af1c119
+    - path: speech_tokenizer/config.json
+      size: 2336
+      sha256: ee65bb901c876664ab8707c487157aa1a6ee57c65969b28fb5ec9dc211e68167
+    - path: speech_tokenizer/configuration.json
+      size: 76
+      sha256: 6bc26d64eb5024b4d1dab5a52371958b429256d6c9d59787f1f5294a54e0cebd
+    - path: speech_tokenizer/model.safetensors
+      size: 682293092
+      sha256: 836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258
+    - path: speech_tokenizer/preprocessor_config.json
+      size: 234
+      sha256: fcb3805e597e786d4067706e602f6688524640f8d3396790e2e09b5942fcbdfb
+    - path: tokenizer_config.json
+      size: 7344
+      sha256: dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670
+    - path: vocab.json
+      size: 2776833
+      sha256: ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910
+    verification: HfApi.model_info
+    requires_manual_verification: false
+    download_bytes: 4520218951
+  whisperx_align_ru:
+    repo: jonatasgrosman/wav2vec2-large-xlsr-53-russian
+    revision: 2329100508896c6d9b157019803ab5601e6f3406
+    license: apache-2.0
+    files:
+    - path: README.md
+      size: 6912
+      sha256: eb1f91a52c05d71fcef8b50615f255f17ba5c6fcdb8c1207a2971e041c224fc9
+    - path: config.json
+      size: 1782
+      sha256: 9f02bcac826a79be1bc20cff20fb2ed830f3538ec282c65050f9195d61499deb
+    - path: preprocessor_config.json
+      size: 262
+      sha256: ca5999a45e98bb76ea87a461ba28a23ad32a5bb9f733b8e0f6546ff38b6c612d
+    - path: pytorch_model.bin
+      size: 1262093719
+      sha256: d1cdb1a7921de7d363f967a9b0101a713602e109dba62b6f3f9ae2e0b2df0c1c
+    - path: special_tokens_map.json
+      size: 85
+      sha256: bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675
+    - path: vocab.json
+      size: 387
+      sha256: 3def5e6b6c6fcbe9a674e58b8f7f9e608742414db0188ec50bb3ac565612f0d7
+    verification: HfApi.model_info
+    requires_manual_verification: false
+    download_bytes: 1262103147
+  whisperx_align_en:
+    repo: facebook/wav2vec2-large-960h-lv60-self
+    revision: 54074b1c16f4de6a5ad59affb4caa8f2ea03a119
+    license: apache-2.0
+    files:
+    - path: README.md
+      size: 4471
+      sha256: c84b90c84e32773d67536fdd93ad4e0fd27a662e024c698bc62a66f0bae3c342
+    - path: config.json
+      size: 1606
+      sha256: bcb82b508db66c6772b34a978bcc6a411f9ea99c33cd9dee337119b5f6ddb797
+    - path: preprocessor_config.json
+      size: 158
+      sha256: c403ce09975b90dff0dd8302c42d422e9de1f166cd7772df23490069893cb0cf
+    - path: pytorch_model.bin
+      size: 1262055246
+      sha256: 00b604cf4d28e86559e8adaeb3a186daa89dc37f5ab216771a0a15a26db0de9f
+    - path: special_tokens_map.json
+      size: 85
+      sha256: bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675
+    - path: tokenizer_config.json
+      size: 162
+      sha256: c9a86ca4c3d72d4cda976512cd786cc65d87fe22afcd4164c8470f1dde7c9758
+    - path: vocab.json
+      size: 291
+      sha256: 19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64
+    verification: HfApi.model_info
+    requires_manual_verification: false
+    download_bytes: 1262062019

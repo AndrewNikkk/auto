@@ -1,0 +1,1 @@
+Classify the supplied text as exactly one content_type: what_if, science, facts, story, news. Use news only for an actual news account supplied by the user; a request to invent or find news is not source material. Return the enum JSON schema only.

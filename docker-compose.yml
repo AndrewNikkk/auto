@@ -1,0 +1,41 @@
+services:
+  app:
+    build:
+      context: .
+      args:
+        COMFY_COMMIT: 9aac21f894a122ddb8d825c57ad61c0db5e630db
+    init: true
+    restart: unless-stopped
+    environment:
+      HF_HOME: ${HF_HOME:-/data/models/huggingface}
+      HF_TOKEN: ${HF_TOKEN:-}
+      OLLAMA_MODELS: ${OLLAMA_MODELS:-/data/models/ollama}
+      OLLAMA_HOST: 127.0.0.1:11434
+      NVIDIA_DRIVER_CAPABILITIES: compute,utility,video
+      COMFYUI_MODELS: ${COMFYUI_MODELS:-/data/models/comfyui}
+      MUSIC_DIR: ${MUSIC_DIR:-/data/assets/music}
+      OUTPUT_DIR: ${OUTPUT_DIR:-/data/outputs}
+      GRADIO_BIND: 0.0.0.0
+      GRADIO_PORT: 7860
+      GRADIO_ANALYTICS_ENABLED: "False"
+      HF_HUB_DOWNLOAD_TIMEOUT: 120
+    ports:
+      - "${GRADIO_HOST:-127.0.0.1}:${GRADIO_PORT:-7860}:7860"
+    volumes:
+      - shorts_data:/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:7860/', timeout=5)"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    stop_grace_period: 45s
+volumes:
+  shorts_data:
